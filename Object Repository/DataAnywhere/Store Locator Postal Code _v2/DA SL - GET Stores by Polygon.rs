@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>SL - Get Stores by Polygon</name>
+   <name>DA SL - GET Stores by Polygon</name>
    <tag></tag>
    <elementGuidId>ebaef64f-1ab4-478f-9048-cdcd00bc7733</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

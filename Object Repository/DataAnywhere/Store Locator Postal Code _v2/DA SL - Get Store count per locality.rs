@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DA SL - Get Store count per locality</name>
+   <name>DA SL - GET Store count per locality</name>
    <tag></tag>
    <elementGuidId>eccee533-7652-41ff-8ad6-7d7e5c7a6ba7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

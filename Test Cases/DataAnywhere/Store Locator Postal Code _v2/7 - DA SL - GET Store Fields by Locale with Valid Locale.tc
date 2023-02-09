@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>7 - DA SL - GET Store Fields by Locale with Valid Locale</name>
+   <tag>Store Locator</tag>
+   <comment></comment>
+   <testCaseGuid>615d2206-855a-4941-aee5-f8b9b7db1aa6</testCaseGuid>
+</TestCaseEntity>

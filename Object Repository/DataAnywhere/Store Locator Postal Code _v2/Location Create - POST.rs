@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Location Create - POST Copy</name>
+   <name>Location Create - POST</name>
    <tag></tag>
    <elementGuidId>721fafb8-23b7-4863-8592-45342342bfed</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

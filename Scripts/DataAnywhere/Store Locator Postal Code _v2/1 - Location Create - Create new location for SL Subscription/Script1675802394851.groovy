@@ -21,7 +21,7 @@ import groovy.json.JsonOutput as JsonOutput
 
 CustomKeywords.'randomNumber.randomNumGenerator.random_number'(0)
 
-response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/Location Create - POST Copy', [('baseLDMCore') : GlobalVariable.baseLDMCore
+response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/Location Create - POST', [('baseLDMCore') : GlobalVariable.baseLDMCore
             , ('ResellerIDStoreLocatorV2') : GlobalVariable.ResellerIDStoreLocatorV2, ('AccountIDStoreLocatorV2') : GlobalVariable.AccountIDStoreLocatorV2
             , ('AutoReferenceCode') : GlobalVariable.AutoReferenceCode]))
 

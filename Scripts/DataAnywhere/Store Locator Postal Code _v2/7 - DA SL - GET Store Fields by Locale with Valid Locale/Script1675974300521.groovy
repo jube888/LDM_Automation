@@ -19,25 +19,27 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 import groovy.json.JsonOutput as JsonOutput
 
-response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/DA SL - GET Store Fields'))
+response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/DA SL - GET Store Fields by locale', 
+        [('locale') : '']))
 
 WS.verifyResponseStatusCode(response, 200)
-
 
 def jsonSlurper = new JsonSlurper()
 
 def JSONResponse = jsonSlurper.parseText(response.getResponseBodyContent())
 
-
 String[] test = JSONResponse
-def arrayLength = test.length
-// println "The length of the array is: " + arrayLength
 
-if (arrayLength < 1 ) {
-	
-	println('Array is empty - no Store Fields returned.')
-	assert false;
+def arrayLength = test.length
+
+// println "The length of the array is: " + arrayLength
+if (arrayLength < 1) {
+    println('Array is empty - no Store Fields returned.')
+
+    assert false
 } else {
-	println("Store Fields returned.")
-	assert true;
+    println('Store Fields returned.')
+
+    assert true
 }
+

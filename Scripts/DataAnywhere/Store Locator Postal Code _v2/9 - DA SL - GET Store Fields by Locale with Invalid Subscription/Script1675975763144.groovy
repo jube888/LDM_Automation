@@ -19,25 +19,28 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 import groovy.json.JsonOutput as JsonOutput
 
-response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/DA SL - GET Store Fields'))
 
-WS.verifyResponseStatusCode(response, 200)
+GlobalVariable.DASubKeyStoreLocatorV2 = '0646791860bd47ea910b44633da2d3a7'
+println(GlobalVariable.DASubKeyStoreLocatorV2)
 
-
-def jsonSlurper = new JsonSlurper()
-
-def JSONResponse = jsonSlurper.parseText(response.getResponseBodyContent())
+response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/DA SL - GET Store Fields by locale', 
+        [('locale') : '']))
 
 
-String[] test = JSONResponse
-def arrayLength = test.length
-// println "The length of the array is: " + arrayLength
+WS.verifyResponseStatusCode(response, 401)
 
-if (arrayLength < 1 ) {
-	
-	println('Array is empty - no Store Fields returned.')
-	assert false;
+println(response.getResponseBodyContent())
+// def newError = response.getResponseBodyContent()
+
+// GlobalVariable.Error = newError
+
+assert response.getResponseText().contains("Access denied due to invalid subscription key. Make sure to provide a valid key for an active subscription")
+
+
+if (GlobalVariable.baseDA == "dataanywherebeta.azure-api.net") {
+	GlobalVariable.DASubKeyStoreLocatorV2 = "33040c1dd9f642958b818ab76f7f2565"
 } else {
-	println("Store Fields returned.")
-	assert true;
+	GlobalVariable.DASubKeyStoreLocatorV2 = "ProdSubKey"
 }
+
+println(GlobalVariable.DASubKeyStoreLocatorV2)

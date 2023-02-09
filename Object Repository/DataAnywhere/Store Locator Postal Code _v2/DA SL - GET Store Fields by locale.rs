@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Store Fields by local</name>
+   <name>DA SL - GET Store Fields by locale</name>
    <tag></tag>
    <elementGuidId>052beea2-514b-4704-8baa-d6eefb1b6634</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,7 +23,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://${GlobalVariable.baseDA}/v2/api/storefields/${locale}</restUrl>
+   <restUrl>https://${GlobalVariable.baseDA}/v2/api/storefields/${GlobalVariable.locale}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -22,7 +22,7 @@ import groovy.json.JsonOutput as JsonOutput
 GlobalVariable.DASubKeyStoreLocatorV2 = '0646791860bd47ea910b44633da2d3a7'
 println(GlobalVariable.DASubKeyStoreLocatorV2)
 
-response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/Store Fields'))
+response = WS.sendRequest(findTestObject('DataAnywhere/Store Locator Postal Code _v2/DA SL - GET Store Fields'))
 
 WS.verifyResponseStatusCode(response, 401)
 

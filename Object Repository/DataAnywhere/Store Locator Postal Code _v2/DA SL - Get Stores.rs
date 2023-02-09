@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DA SL - Get Stores</name>
+   <name>DA SL - GET Stores</name>
    <tag></tag>
    <elementGuidId>a3488e21-5b90-448b-9198-38f014b04b07</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
