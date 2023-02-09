@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>20 - PUT Update Location URLs by Location Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75695225-dbee-4086-83ee-77150b152879</testCaseGuid>
+</TestCaseEntity>

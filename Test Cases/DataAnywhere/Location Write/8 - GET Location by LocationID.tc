@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>8 - GET Location by LocationID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85779ceb-f8b9-4e96-83b3-1294f63b2388</testCaseGuid>
+</TestCaseEntity>

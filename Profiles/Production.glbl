@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Production</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dd4bc586c01c44bd85e58b6a9134525f'</initValue>
+      <name>DASubKey</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

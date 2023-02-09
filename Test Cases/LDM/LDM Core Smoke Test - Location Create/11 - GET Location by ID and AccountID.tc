@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11 - GET Location by ID and AccountID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6562d494-0ede-41df-b554-00c19acef674</testCaseGuid>
+</TestCaseEntity>

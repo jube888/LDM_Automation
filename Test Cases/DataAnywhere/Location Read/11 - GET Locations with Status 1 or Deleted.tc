@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11 - GET Locations with Status 1 or Deleted</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f1c77bf-3f5a-460c-b318-2f24fb67acf0</testCaseGuid>
+</TestCaseEntity>

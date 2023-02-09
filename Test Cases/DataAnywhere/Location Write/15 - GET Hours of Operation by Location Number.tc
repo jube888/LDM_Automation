@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>15 - GET Hours of Operation by Location Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2a2a0fd-f007-4a9f-bd50-deb25d6b96b8</testCaseGuid>
+</TestCaseEntity>

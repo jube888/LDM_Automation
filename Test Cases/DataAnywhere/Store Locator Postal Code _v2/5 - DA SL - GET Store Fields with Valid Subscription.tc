@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 - DA SL - GET Store Fields with Valid Subscription</name>
+   <tag>Store Locator</tag>
+   <comment></comment>
+   <testCaseGuid>69fc62bb-8cb1-4163-8414-929adb58aa5f</testCaseGuid>
+</TestCaseEntity>

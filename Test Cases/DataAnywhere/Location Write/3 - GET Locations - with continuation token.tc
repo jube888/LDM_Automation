@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3 - GET Locations - with continuation token</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49aab53f-af0f-47e9-b90f-99748837e2b3</testCaseGuid>
+</TestCaseEntity>

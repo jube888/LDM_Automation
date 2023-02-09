@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "EA72EBF58B3564A165A0D194ED69B214",
+  "keywordClasses": [
+    {
+      "name": "randomNumber.randomNumPageSize",
+      "keywordMethods": [
+        {
+          "name": "random_number",
+          "parameters": [
+            {
+              "name": "random_num",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

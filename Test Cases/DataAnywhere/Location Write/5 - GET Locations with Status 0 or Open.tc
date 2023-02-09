@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 - GET Locations with Status 0 or Open</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d86382d2-744e-46e7-89e1-3c00d9d82ff3</testCaseGuid>
+</TestCaseEntity>

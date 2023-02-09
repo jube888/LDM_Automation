@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Location is created in the account that the SL subscription has been created for, that will be used throughout this test suite.</description>
+   <name>1 - Location Create - Create new location for SL Subscription</name>
+   <tag>Store Locator</tag>
+   <comment></comment>
+   <testCaseGuid>481a4231-1ffc-4a84-9450-4ab9d899b679</testCaseGuid>
+</TestCaseEntity>

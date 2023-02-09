@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "70610E9BD1E055AFA7879FA600AFB017",
+  "keywordClasses": [
+    {
+      "name": "randomNumber.randomNumGenerator",
+      "keywordMethods": [
+        {
+          "name": "random_number",
+          "parameters": [
+            {
+              "name": "random_num",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

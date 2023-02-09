@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3 - DA SL - Get Store with Invalid ID</name>
+   <tag>Store Locator</tag>
+   <comment></comment>
+   <testCaseGuid>79cb00e8-2994-463f-88b7-46058969211d</testCaseGuid>
+</TestCaseEntity>

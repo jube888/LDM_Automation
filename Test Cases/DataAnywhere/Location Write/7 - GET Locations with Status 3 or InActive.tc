@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>7 - GET Locations with Status 3 or InActive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>692a7a64-a09c-4592-9ef0-041dd5d67753</testCaseGuid>
+</TestCaseEntity>

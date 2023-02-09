@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>15 - GET Location by LocationNumber and AccountID and ResellerID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da928f7c-c4c4-4e9d-94c2-1501e73b1e71</testCaseGuid>
+</TestCaseEntity>

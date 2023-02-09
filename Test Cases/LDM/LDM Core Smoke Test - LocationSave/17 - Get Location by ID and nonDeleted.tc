@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>17 - Get Location by ID and nonDeleted</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f756469c-4802-4b18-9770-97ab1e87d9cc</testCaseGuid>
+</TestCaseEntity>

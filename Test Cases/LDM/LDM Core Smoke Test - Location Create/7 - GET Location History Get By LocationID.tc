@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>7 - GET Location History Get By LocationID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d06df204-d503-470b-9989-6327d9d35f3b</testCaseGuid>
+</TestCaseEntity>
